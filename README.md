@@ -53,9 +53,17 @@ Reviewed summary statistics (`df.describe()`) for all numeric columns. No implau
 
 After cleaning, a short exploratory analysis was performed to validate the dataset and surface initial patterns:
 
-- **Age distribution:** Patients are concentrated in older age groups, peaking at 70–80 years — consistent with the higher prevalence of type 2 diabetes in older populations.
-- **Readmission status:** The majority of patients (~53%) were not readmitted. About 11% were readmitted within 30 days — the group most relevant for readmission-risk analysis.
-- **Age vs. length of stay:** Average hospital stay increases with age, from ~2.8 days for patients under 10 to ~4.8 days for patients in their 80s, suggesting older patients tend to have more complex or longer treatment needs.
+**Age distribution:** Patients are concentrated in older age groups, peaking at 70–80 years — consistent with the higher prevalence of type 2 diabetes in older populations.
+
+![Age Distribution](age_distribution.png)
+
+**Readmission status:** The majority of patients (~53%) were not readmitted. About 11% were readmitted within 30 days — the group most relevant for readmission-risk analysis.
+
+![Readmission Status](readmission_status.png)
+
+**Age vs. length of stay:** Average hospital stay increases with age, from ~2.8 days for patients under 10 to ~4.8 days for patients in their 80s, suggesting older patients tend to have more complex or longer treatment needs.
+
+![Average Stay by Age](avg_stay_by_age.png)
 
 ## Tools Used
 
